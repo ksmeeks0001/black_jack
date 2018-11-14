@@ -1,7 +1,6 @@
-#include "Card.h"
 #include <iostream>
 #include <sstream>
-
+#include "Card.h"
 Card::Card(string s , string d)
 {
     suit = s;

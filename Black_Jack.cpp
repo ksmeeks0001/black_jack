@@ -1,8 +1,8 @@
-#include "Black_Jack.h"
+#include <iostream>
 #include <time.h>
 #include <iomanip>
 #include <time.h>
-
+#include "Black_Jack.h"
 Black_Jack::Black_Jack()
 {
 
@@ -31,7 +31,7 @@ void Black_Jack::opening()
        //sleep info
         struct timespec slptm;
         slptm.tv_sec = 0;
-        slptm.tv_nsec = 1000 * 1000000 * 100000;
+        slptm.tv_nsec =  10000 * 100000;
 
     cout << "The cards are being dealt";
     for (int i = 0; i < 7; i++)

@@ -1,9 +1,7 @@
-#ifndef DECK_H
-#define DECK_H
-#include <string>
-#include <Card.h>
 
-using namespace std;
+#include <string>
+#include "Card.h"
+
 
 class Deck
 {
@@ -28,10 +26,8 @@ class Deck
         void display_cards();
 
 
-    private:
-        //lists of possible card types of initialization
-        string suits[4] = {"Spades", "Clubs", "Diamonds", "Hearts"};
-        string denoms[13] = {"A","2","3","4","5","6","7","8","9","10","J","Q","K"};
-};
-
-#endif // DECK_H
+       	 //lists of possible card types of initialization
+	string denoms[13];
+		
+	string suits[4];
+}; // DECK

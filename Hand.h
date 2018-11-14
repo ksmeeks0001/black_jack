@@ -1,6 +1,6 @@
 #ifndef HAND_H
 #define HAND_H
-#include <Card.h>
+#include "Card.h"
 
 using namespace std;
 
@@ -12,7 +12,7 @@ class Hand
         Card cards[8]; // array of cards in the hand
         bool bust;
 
-        int recieving_index = 2;
+        int recieving_index;
 
 
         Hand(); // Default constructor
